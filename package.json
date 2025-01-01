@@ -1,0 +1,15 @@
+{
+  "name": "leaves",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r clean",
+    "build:web": "pnpm -F vite-plugin-meta-data build && pnpm -F leaves-web build"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.3",
+    "typescript": "5.7.2",
+    "vite": "6.0.6"
+  }
+}
